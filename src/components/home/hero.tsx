@@ -19,7 +19,7 @@ interface ExpItemProps {
 const exps: Array<Exp> = [
   {
     label: 'Estudiantes',
-    value: '100+',
+    value: '300+',
   },
   {
     label: 'Cursos',

@@ -3,61 +3,61 @@ import type { Testimonial } from '@/interfaces/testimonial'
 export const data: Array<Testimonial> = [
   {
     id: 1,
-    title: 'Detailed learning materials',
+    title: 'Estar Seguros ',
     content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+      'La asesoría del Dr. Alonso Brito ha sido invaluable para nosotros, especialmente considerando que las leyes están en constante evolución. Contar con la orientación de un experto en la materia es esencial para enfrentar estos desafíos de manera efectiva.',
     user: {
       id: 1,
       name: 'Luis Sera',
-      professional: 'UI/UX Engineer',
+      professional: 'Auditoría',
       photo: '1.jpg',
     },
   },
   {
     id: 2,
-    title: 'Best Quality Online Course!',
+    title: 'Seguros Nuevo Mundo',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'La asesoría del Dr. Alonso Brito ha sido invaluable para nosotros, especialmente considerando que las leyes están en constante evolución. Contar con la orientación de un experto en la materia es esencial para enfrentar estos desafíos de manera efectiva.',
     user: {
       id: 1,
-      name: 'Riski',
-      professional: 'Software Engineer',
-      photo: '2.jpg',
+      name: 'Juan',
+      professional: 'Pólizas',
+      photo: '2.png',
     },
   },
   {
     id: 3,
-    title: 'Very complete class',
+    title: 'Oceánica de Seguros',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'La asesoría del Dr. Alonso Brito ha sido invaluable para nosotros, especialmente considerando que las leyes están en constante evolución. Contar con la orientación de un experto en la materia es esencial para enfrentar estos desafíos de manera efectiva.',
     user: {
       id: 1,
-      name: 'Nguyễn Văn',
-      professional: 'FullStack Designer',
-      photo: '3.jpg',
+      name: 'María',
+      professional: 'Administración',
+      photo: '3.png',
     },
   },
   {
     id: 4,
-    title: 'Great Quality!',
+    title: 'Real Seguros',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'La asesoría del Dr. Alonso Brito ha sido invaluable para nosotros, especialmente considerando que las leyes están en constante evolución. Contar con la orientación de un experto en la materia es esencial para enfrentar estos desafíos de manera efectiva.',
     user: {
       id: 1,
       name: 'Diana Jordan',
-      professional: 'SEO Expert',
+      professional: 'Analista',
       photo: '4.jpg',
     },
   },
   {
     id: 5,
-    title: 'Detailed learning materials',
+    title: 'Vertice Seguros',
     content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+      'La asesoría del Dr. Alonso Brito ha sido invaluable para nosotros, especialmente considerando que las leyes están en constante evolución. Contar con la orientación de un experto en la materia es esencial para enfrentar estos desafíos de manera efectiva.',
     user: {
       id: 1,
       name: 'Ashley Graham',
-      professional: 'Back-End Developer',
+      professional: 'Gerente',
       photo: '5.jpg',
     },
   },

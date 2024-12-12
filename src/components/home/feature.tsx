@@ -42,11 +42,11 @@ const HomeFeature: FC = () => {
         <Grid container spacing={3}>
           <Grid item xs={12} md={5}>
             <Box sx={{ position: 'relative' }}>
-              <Image src="/images/home-feature.png" width={900} height={700} quality={97} alt="Feature img" />
+              <Image src="/images/home-feature.png" width={910} height={600} quality={97} alt="Feature img" />
               <Box
                 sx={{
                   position: 'absolute',
-                  top: -36,
+                  top: -40,
                   right: { xs: 0, md: -36 },
                   boxShadow: 2,
                   borderRadius: 1,
@@ -54,7 +54,7 @@ const HomeFeature: FC = () => {
                   py: 1.4,
                   zIndex: 1,
                   backgroundColor: 'background.paper',
-                  width: 190,
+                  width: 170,
                 }}
               >
                 <Typography variant="h5" sx={{ mb: 1 }}>
@@ -87,9 +87,11 @@ const HomeFeature: FC = () => {
                   left: { xs: 0, md: -24 },
                   boxShadow: 2,
                   borderRadius: 1,
-                  px: 2.2,
-                  py: 2,
+                  px: 2,
+                  py: 1.3,
                   zIndex: 1,
+                  width: '100px',
+                  height: '150px',
                   backgroundColor: 'background.paper',
                   textAlign: 'center',
                 }}
@@ -109,12 +111,13 @@ const HomeFeature: FC = () => {
                   </Typography>
                   <Box
                     sx={{
-                      height: 85,
-                      width: 85,
+                      height: 62,
+                      width: 59,
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
                       flexDirection: 'column',
+                      borderRadius: '2px solid red',
                     }}
                   >
                     <Typography variant="h4" sx={{ color: '#32dc88' }}>
@@ -125,14 +128,14 @@ const HomeFeature: FC = () => {
                       thickness={2}
                       variant="determinate"
                       value={100}
-                      size={85}
+                      size={75}
                     />
                     <CircularProgress
                       disableShrink
                       thickness={2}
                       variant="determinate"
                       value={100}
-                      size={85}
+                      size={75}
                       sx={{ transform: 'rotate(96deg) !important', color: '#32dc88', position: 'absolute' }}
                     />
                   </Box>
